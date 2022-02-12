@@ -27,3 +27,14 @@ voteinc <- mutate(
 )
 
 unique(voteinc$vote)
+
+
+
+##remove the NAs
+
+voteinc <- na.omit(voteinc)
+
+##export
+
+export(voteinc, "voteinc.dta")
+
