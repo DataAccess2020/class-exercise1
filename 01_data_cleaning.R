@@ -37,4 +37,3 @@ voteinc <- na.omit(voteinc)
 ##export
 
 export(voteinc, "voteinc.dta")
-
