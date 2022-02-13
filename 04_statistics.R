@@ -24,3 +24,7 @@ voteinc %>%
 install.packages("gmodels")
 library(gmodels)
 
+as.table(CrossTable(voteinc$hinctnta, voteinc$vote, digit=2, prop.r=TRUE, chisq=TRUE))
+
+##The Pearson's Chi-Squared tes gives us a p = 2.807141e-06, therefore with a 95% confidence
+## we can reject the null H0 and confirm the Ha: vote depends on income.
