@@ -17,6 +17,10 @@ voteinc %>%
 
 #as we can see, they are different for each level of income
 
-#To test the Ha we use "gmodels"
+#Given that, we now have some support to the Ha, so now we test it statistically;
+#in order to reject the H0, we'll perform a chi^test with contingency tables.
+#To work fastly, we use "gmodels" package:
 
 install.packages("gmodels")
+library(gmodels)
+
