@@ -5,7 +5,7 @@ Antonio Alaia
 Maria Ascolese
 ********************************
 
-### Income-based Participation Inequality in Italy
+### Income-based participation inequality in Italy
 
 In this short paper, we investigated whether Italian voter turnout in the last national election presented income-based participatory inequality.
 The data we used is available in the ninth round of the **European Social Survey**, collected in 2018.<br/>
