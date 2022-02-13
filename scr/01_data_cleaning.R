@@ -12,7 +12,7 @@ unique(vote_income$vote)
 
 voteinc <- filter(
   vote_income,
-  agea > 18,
+  agea >= 18,
   vote == 1 | vote == 2
 )
 
