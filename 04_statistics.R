@@ -17,3 +17,6 @@ voteinc %>%
 
 #as we can see, they are different for each level of income
 
+#To test the Ha we use "gmodels"
+
+install.packages("gmodels")
