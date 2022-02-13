@@ -1,6 +1,7 @@
 ## Class Exercise 1
 
 Antonio Alaia
+
 Maria Ascolese
 ********************************
 
