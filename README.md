@@ -1,7 +1,7 @@
 ## Class Exercise 1
 
-#### Antonio Alaia
-#### Maria Ascolese
+Antonio Alaia
+Maria Ascolese
 ********************************
 
 ### Income-based Participation Inequality in Italy
