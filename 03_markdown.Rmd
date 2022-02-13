@@ -1,0 +1,56 @@
+---
+title: "Income-based Participation Inequality in Italy"
+author: "Maria Ascolese, Antonio Alaia"
+date: "12/02/2022"
+output: html_document
+number_sections: true
+theme: cerulean
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+****
+
+
+
+### Introduction and hypothesis {-}
+
+Political participation inequality is the systematic presence of difference in voter turnout between groups, depending on factors like race, gender, education.
+In this short paper we investigated whether Italian voters in the last national election presented income-based participatory inequality.
+Our result confirmed a positive relationship between income and participation.
+
+#### H1: There's a relationship between voter turnout and income level
+
+*********************
+
+
+### Data and method
+
+In this paper we used the ninth round of the European Social Survey collected in 2018. We selected the variables *vote*, *hinctnta* and *agea*. All subjects with missing observations on the variables of interest were deleted from the analysis.
+
+For the last national election, occurred on March 4th, 2018, the variable *vote* had value 1 for voters, 2 for non-voters, 3 for subjects who weren't eligible to vote at the time; and NA for missing observations. We recoded the variable so that *vote* would have value 1 for voters, 0 for non-voters.
+
+Of course, subjects younger than 18 years old were avoided; even if subjects younger than 25 years old were not allowed to vote for the members of the Senate of the Republic, we still kept them, as they voted for the Chamber of Deputies.
+
+The variable *hinctnta* represents annual income divided into deciles.
+
+To test our hypothesis we used contigency tables and ran a Pearson Chi-squared test.
+
+
+
+### Results
+
+
+
+
+
+*************************************
+
+### Conclusions
+
+
+
+
+
+
