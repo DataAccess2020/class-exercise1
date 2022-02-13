@@ -43,14 +43,17 @@ To test our hypothesis we used contigency tables and ran a Pearson Chi-squared t
 
 The contingency table showed significant between-groups differences in voter turnout. The overall difference grew up to almost +25% in voter turnout as the income increased. The only exception has been the very last income decile, which shows a sudden drop compared to the 9th.
 
+Therefore, we felt comfortable running a Pearson Chi-squared test:
 
+> Chi^2 =  42.37432 <br>
+> _d.f._ =  9 <br>
+> p =  2.807141e-06 <br>
+
+With _df_ = 9 the Chi-squared value is big enough to have a right-tail 
+probability of 0.00.
 
 *************************************
 
 ### Conclusions
 
-
-
-
-
-
+In this short paper we found a positive relationship between income and voter turnout, occurred in Italian national election of 2018. We believe that further research would confirm Bosancianu and Schneider's theory of systematic income-based inequality in democratic elections.
