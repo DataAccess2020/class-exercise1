@@ -1,5 +1,5 @@
 ---
-title: "Income-based Participation Inequality in Italy"
+title: "Income-based participation inequality in Italy"
 author: "Maria Ascolese, Antonio Alaia"
 date: "12/02/2022"
 output: html_document
@@ -16,20 +16,20 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Introduction and hypothesis {-}
 
-Political participation inequality is the systematic presence of difference in voter turnout between groups, depending on factors like race, gender, education.
-In this short paper we investigated whether Italian voters in the last national election presented income-based participatory inequality.
+Political participation inequality is the systematic presence of difference in voter turnout between groups, depending on factors like race, gender, education, income (Bosancianu and Schneider, 2021).
+In this short paper we investigated whether Italian voters in the last national election presented income-based participatory inequality, as Italy shows dramatic socio-economical differences among regions (Di Maria, 2018).
 Our result confirmed a positive relationship between income and participation.
 
-#### H1: There's a relationship between voter turnout and income level
+#### H1: There's a relationship between voter turnout and income level.
 
 *********************
 
 
 ### Data and method
 
-In this paper we used the ninth round of the European Social Survey collected in 2018. We selected the variables *vote*, *hinctnta* and *agea*. All subjects with missing observations on the variables of interest were deleted from the analysis.
+In this paper we used the ninth round of the [European Social Survey](https://www.europeansocialsurvey.org/) collected in 2018. We selected the variables *vote*, *hinctnta* and *agea*. All subjects with missing observations on the variables of interest were deleted from the analysis.
 
-For the last national election, occurred on March 4th, 2018, the variable *vote* had value 1 for voters, 2 for non-voters, 3 for subjects who weren't eligible to vote at the time; and NA for missing observations. We recoded the variable so that *vote* would have value 1 for voters, 0 for non-voters.
+For the last national election, occurred on March 4th, 2018, the variable *vote* had value 1 for voters, 2 for non-voters, 3 for subjects who weren't eligible to vote at the time, and NA for missing observations. We [recoded](https://github.com/DataAccess2020/class-exercise1/blob/main/scr/01_data_cleaning.R) the variable so that *vote* would have value 1 for voters, 0 for non-voters.
 
 Of course, subjects younger than 18 years old were avoided; even if subjects younger than 25 years old were not allowed to vote for the members of the Senate of the Republic, we still kept them, as they voted for the Chamber of Deputies.
 
@@ -41,7 +41,7 @@ To test our hypothesis we used contigency tables and ran a Pearson Chi-squared t
 
 ### Results
 
-
+The contingency table showed significant between-groups differences in voter turnout. The overall difference grew up to almost +25% in voter turnout as the income increased. The only exception has been the very last income decile, which shows a sudden drop compared to the 9th.
 
 
 
